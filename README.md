@@ -1,15 +1,28 @@
 ## AndroidX AutofitTextView
 -------
 
+###### Current version:
+[![](https://jitpack.io/v/Daniil-Pavenko/androidx-autofittextview.svg)](https://jitpack.io/#Daniil-Pavenko/androidx-autofittextview)
+
 ### Quick start
 -------
 1. Implement by jetpack to your build.gradle as `dependency{}`
 ```actionscript
 dependencies {
     ...
-    implementatino ""
+    implementation 'com.github.Daniil-Pavenko:androidx-autofittextview:<latest version>'
 }
 
+```
+
+And add repositories to your root build.gradle file.
+```actionscript
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
 ```
 
 
